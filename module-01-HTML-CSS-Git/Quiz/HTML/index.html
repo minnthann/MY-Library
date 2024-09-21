@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>module 1</title>
+</head>
+<body>
+    <div id="start-container">
+        <h2>Welcome to the Quiz</h2>
+        <input type="text" id="username" placeholder="Enter yur name" onfocus="clearPlaceholder(this)">
+        <button onclick="startQuiz()">Start Quiz</button>
+    </div>
+    <div class="quiz-container" id="quiz-container" style="display: none;">
+        <div id="timer">Time Left: <span id="time">35</span>seconds</div>
+        <div id="question"></div>
+        <div class="options"></div>
+        <button id="next-question" onclick="checkAnswer()">Submit</button>
+        <div id="feedback"></div>
+    </div>
+
+    <script id="questions-data" type="application/json"> [
+        {
+            "question"; "what is the capital of fne?",
+            "options"; ["prs", "brn", "roe", "mrd"],
+            "answer": "prs"
+        },
+        ]
+
+    </script>
+
+</body>
+</html>
