@@ -1,0 +1,182 @@
+/* .myicom {
+    color: red;
+    font-size: 20px;
+    &:hover {
+        text-decoration: underline;
+
+    }
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.mytitle {
+    box-shadow: 0px 2px 4px #777;
+    padding: 1px;
+    border-radius: 7px;
+    /* &:before{
+        content: "";
+        border-left: 1px solid red;
+        padding-right: 10px;
+    } */
+
+    &:after {
+        content:"Student's Bio" ;
+        color: orange;
+    }
+
+    margin: 20px;
+}
+
+.myicon {
+    color: whitesmoke;
+    border: 1px solid green;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.aboutme {
+    position: relative
+    ;
+    border-left: 2px solid green;
+    padding-left: 20px;
+    margin: 20px;
+
+        &:before {
+
+    }
+
+    &:after {
+
+        content:" Hay i am panno Yangon i love coding and coding. now i am coding on html css, and , javascript. but i am going build student's bio page." ;
+        color: blueviolet;
+
+        
+    }
+
+    margin: 20px;
+}
+
+.mypen {
+    position: absolute;
+    color: blue;
+    font-size: 20px;
+    left: -10px;
+    top: -4px;
+}
+
+.myimage {
+    --shape: 50% 0%, 0% 100%, 100% 100% ;
+    width: 150px;
+    /* height: 200px; */
+    clip-path: polygon(var(--shape));
+    background-color: #9a8406;
+    padding: 30px;
+    cursor: pointer;
+    margin-left: 25%;
+}
+
+.mycontent {
+    margin: 10px;
+    border: 1px solid #777;
+    padding: 30px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 50px;
+    background-color: #9a8406;
+    display: flex;
+}
+
+.email {
+    color: darkcyan;
+    /* box-shadow: 0px 1px 2px whitesmoke; */
+    width: 100%;
+    padding: 7px;
+    /* background-color: #777;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 50px; */
+    &:before {
+        /* border: 1px solid; */
+        padding: 5px 20px 5px 5px;
+        box-shadow: 0px 1px 2px rgb(219, 192, 192);
+        width: 20px;
+        /* height: 20px; */
+        
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 50px;    
+        background-color: beige;
+    }
+    &:after {
+        content: ":Email";
+        font-family: cursive;
+        padding-left: 10px;
+        color: rgb(133, 89, 89);
+    }
+}
+
+.address {
+    color: darkcyan;
+    width: 100%;
+    padding: 7px;
+    &:before {
+        padding: 5px 20px 5px 5px;
+        box-shadow: 0px 1px 2px rgb(219, 192, 192);
+        width: 20px;
+        
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 50px;    
+        background-color: beige;
+    }
+    &:after {
+        content: ":addeds";
+        font-family: cursive;
+        padding-left: 10px;
+        color: rgb(133, 89, 89);
+    }
+}
+
+.telephome {
+    color: darkcyan;
+    width: 100%;
+    padding: 7px;
+    &:before {
+        padding: 5px 20px 5px 5px;
+        box-shadow: 0px 1px 2px rgb(219, 192, 192);
+        width: 20px;
+        
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 50px;    
+        background-color: beige;
+    }
+    &:after {
+        content: ":phome";
+        font-family: cursive;
+        padding-left: 10px;
+        color: rgb(133, 89, 89);
+    }
+}
+
+.github {
+    color: darkcyan;
+    width: 100%;
+    padding: 7px;
+    &:before {
+        padding: 5px 20px 5px 5px;
+        box-shadow: 0px 1px 2px rgb(219, 192, 192);
+        width: 20px;
+        
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 50px;    
+        background-color: beige;
+    }
+    &:after {
+        content: ":github";
+        font-family: cursive;
+        padding-left: 10px;
+        color: rgb(133, 89, 89);
+    }
+}
