@@ -29,16 +29,14 @@ document.addEventListener("DOMContentLoaded", () => {
         "08-Module-Project.html"
       ],
       M02_Advanced_CSS: [
-        "01-HTML.html",
-        "02-Attributes.html",
-        "03-CSS-Selectors.html",
-        "04-Box-Model.html",
-        "05-CSS-Positioning.html",
-        "06-Git-Guide.html",
-        "07-Challenge.html",
-        "08-Module-Project.html",
-        "09-Recordings.html",
-        "10-Quiz.html",
+        "01-wireframing.html",
+        "02-Flexbox-Layout.html",
+        "03-Responsive-Design.html",
+        "04-Pseudo-Classes.html",
+        "05-CSS-Variables.html",
+        "module-02challage.html",
+        "module-2project.html",
+        "moduleproject.html"
       ],
       M03_JavaScript: [
         "01-HTML.html",
