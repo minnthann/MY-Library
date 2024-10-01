@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#fetch-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#user-list {
+    margin-top: 20px;
+}
+
+#user-list div {
+    margin-bottom: 10px;
+}
